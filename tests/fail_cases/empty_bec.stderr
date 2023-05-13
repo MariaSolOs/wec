@@ -1,0 +1,10 @@
+error[E0282]: type annotations needed for `Vec<_>`
+ --> tests/fail_cases/empty_bec.rs:7:9
+  |
+7 |     let v = bec![];
+  |         ^
+  |
+help: consider giving `v` an explicit type, where the placeholders `_` are specified
+  |
+7 |     let v: Vec<_> = bec![];
+  |          ++++++++

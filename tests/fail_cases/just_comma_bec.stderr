@@ -1,0 +1,7 @@
+error: no rules expected the token `,`
+ --> tests/fail_cases/just_comma_bec.rs:6:18
+  |
+6 |     let v = bec![,];
+  |                  ^ no rules expected this token in macro call
+  |
+  = note: while trying to match sequence start

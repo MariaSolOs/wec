@@ -1,0 +1,7 @@
+error: no rules expected the token `,`
+ --> tests/fail_cases/just_comma_vinto.rs:6:20
+  |
+6 |     let v = vinto![,];
+  |                    ^ no rules expected this token in macro call
+  |
+  = note: while trying to match sequence start
