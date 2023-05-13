@@ -4,7 +4,7 @@ A collection of useful Rust macros for creating `vec!`s.
 
 ## `bec!`
 
-Tired of writing `vec![ Box::new(1), ... Box::new(100) ]`? Me too. So here's macro that does it for you.
+Tired of writing `vec![ Box::new(1), ... Box::new(100) ]`? Me too. So here's a macro that does it for you.
 
 ```rust
 let v = bec![1, 2, 3];
