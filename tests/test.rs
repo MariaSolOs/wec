@@ -18,3 +18,9 @@ fn test_annotated_empty() {
     let _: Vec<bool> = bec![];
     let _: Vec<bool> = vinto![];
 }
+
+#[test]
+fn test_trailing_comma() {
+    let _ = bec![1, 2,];
+    let _: Vec<String> = vinto!["foo", "bar",];
+}
