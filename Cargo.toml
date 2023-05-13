@@ -1,11 +1,15 @@
 [package]
 name = "wec"
-version = "0.1.0"
+version = "1.0.0"
 edition = "2021"
 authors = ["Maria José Solano <majosolano99@gmail.com>"]
 categories = ["development-tools"]
 keywords = ["macros"]
+description = "Useful vec!-like macros"
 readme = "README.md"
+repository = "https://github.com/MariaSolOs/wec"
+license = "Apache-2.0"
+documentation = "https://docs.rs/wec"
 
 [dev-dependencies]
 pretty_assertions = "1.3.0"
